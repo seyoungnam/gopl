@@ -72,3 +72,6 @@ To know whether the element was really there or not:
 ```go
 if age, ok := ages["bob"]; !ok { /* ... */}
 ```
+
+Go does not provide a `set` type, but since the keys of a map are distinct, a map can serve this purpose.
+
